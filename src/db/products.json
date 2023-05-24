@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "papitas",
+      "description": "fritas",
+      "price": 1500,
+      "code": "PP1",
+      "stock": 12,
+      "category": "comida"
+    },
+    {
+      "id": 2,
+      "title": "comida con papas",
+      "description": "al horno",
+      "price": 2700,
+      "code": "PP2",
+      "stock": 59,
+      "category": "comida"
+    },
+    {
+      "id": 3,
+      "title": "hummus",
+      "description": "a la plancha",
+      "price": 900,
+      "code": "PP3",
+      "stock": 8,
+      "category": "comida"
+    },
+    {
+      "id": 4,
+      "title": "torta frita",
+      "description": "mucha grasa",
+      "price": "1250",
+      "code": "GR12",
+      "stock": "11",
+      "category": "comida",
+      "status": true,
+      "thumbnails": []
+    },
+    {
+      "id": 5,
+      "title": "mermelada",
+      "description": "de limon",
+      "price": "1590",
+      "code": "MM11",
+      "stock": "5",
+      "category": "comida",
+      "status": true,
+      "thumbnails": []
+    }
+  ]

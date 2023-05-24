@@ -1,0 +1,22 @@
+<div>
+  <h1>Lista de Productos</h1>
+  <ul id="productList"></ul>
+
+  <form id="createProductForm">
+    <input type="text" name="title" placeholder="Titulo"  />
+    <input type="text" name="description" placeholder="Descripcion"  />
+    <input type="text" name="code" placeholder="Codigo"  />
+    <input type="number" name="price" placeholder="Precio"  />
+    <input type="number" name="stock" placeholder="Stock"  />
+    <input type="text" name="category" placeholder="Categoria"  />
+    <button type="submit">Crear Producto</button>
+  </form>
+
+  <form id="deleteProductForm">
+    <input type="text" name="productId" placeholder="Id del Producto"  />
+    <button type="submit">Borrar Producto</button>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./index.js"></script>
+</div>
